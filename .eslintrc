@@ -1,0 +1,72 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "dot-location": [
+      2,
+      "property"
+    ],
+    "keyword-spacing": [
+      2,
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "space-before-blocks": 2,
+    "arrow-spacing": 2,
+    "no-unexpected-multiline": 2,
+    "no-eq-null": 2,
+    "no-console": 0
+  },
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "globals": {
+    "test": true,
+    "expect": true,
+    "ga": true,
+    "API_URL": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
+}
+
